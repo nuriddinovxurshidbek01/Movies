@@ -2,3 +2,54 @@
     font-weight: 600;
     color: blue;
 }
+
+.wrapper {
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 20px;
+    width: 70%;
+    overflow-y: scroll;
+    height: 890px;
+    position: relative;
+}
+
+.search {
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px 8px;
+}
+
+.title {
+    height: 70px;
+    overflow: hidden;
+}
+
+.mainImg {
+    height: 190px;
+}
+
+.card {
+    width: 320px;
+    text-align: start;
+    padding: 15px;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.forma {
+    padding: 15px 8px;
+}
+
+input {
+    border: 1px solid silver;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+}
